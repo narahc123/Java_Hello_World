@@ -2,7 +2,7 @@ pipeline {
    
   agent {
     docker {
-        image 'openjdk'
+        image 'jenkins/jenkins'
     }
   }
      stages {
